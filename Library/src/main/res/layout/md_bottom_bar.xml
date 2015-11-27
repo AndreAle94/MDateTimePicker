@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:gravity="end"
+    android:padding="@dimen/bottom_bar_button_padding" >
+
+    <Button
+        android:id="@+id/negative_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bottom_bar_button_height"
+        android:minWidth="@dimen/bottom_bar_button_min_width"
+        android:paddingLeft="@dimen/bottom_bar_button_padding"
+        android:paddingRight="@dimen/bottom_bar_button_padding"
+        android:background="@null"
+        android:foreground="?selectableItemBackground"
+        android:text="@android:string/cancel" />
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/positive_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bottom_bar_button_height"
+        android:minWidth="@dimen/bottom_bar_button_min_width"
+        android:paddingLeft="@dimen/bottom_bar_button_padding"
+        android:paddingRight="@dimen/bottom_bar_button_padding"
+        android:background="@null"
+        android:foreground="?selectableItemBackground"
+        android:text="@android:string/ok" />
+
+</LinearLayout>

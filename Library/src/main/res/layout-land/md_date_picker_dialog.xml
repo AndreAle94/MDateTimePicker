@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <it.andreale.mdatepicker.date.DateHeaderView
+        android:id="@+id/date_header_view"
+        android:layout_width="@dimen/date_header_max_width"
+        android:layout_height="match_parent"
+        android:padding="@dimen/date_picker_header_padding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="@dimen/date_picker_body_width"
+            android:layout_height="@dimen/date_picker_body_height" >
+
+            <it.andreale.mdatepicker.date.YearPickerView
+                android:id="@+id/date_year_picker_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <it.andreale.mdatepicker.date.DayPickerView
+                android:id="@+id/date_day_picker_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+        <include layout="@layout/md_bottom_bar" />
+
+    </LinearLayout>
+
+</LinearLayout>

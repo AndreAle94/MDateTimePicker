@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mdp_darkMode" format="boolean" />
+    <attr name="mdp_positiveColor" format="color|reference" />
+    <attr name="mdp_negativeColor" format="color|reference" />
+    <attr name="mdp_headerBackgroundColor" format="color|reference" />
+    <attr name="mdp_todayTextColor" format="color|reference" />
+    <attr name="mdp_selectedCircleColor" format="color|reference" />
+
+</resources>

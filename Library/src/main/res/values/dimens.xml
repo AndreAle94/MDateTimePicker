@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="date_picker_body_height">300dp</dimen>
+    <dimen name="date_picker_header_padding">12dp</dimen>
+    <dimen name="date_picker_header_year_text">16sp</dimen>
+    <dimen name="date_picker_header_day_text">28sp</dimen>
+    <dimen name="date_picker_month_menu_height">52dp</dimen>
+    <dimen name="year_text_size_normal">20sp</dimen>
+    <dimen name="year_text_size_selected">30sp</dimen>
+    <dimen name="year_picker_padding">8dp</dimen>
+
+    <dimen name="bottom_bar_height">52dp</dimen>
+    <dimen name="bottom_bar_button_height">36dp</dimen>
+    <dimen name="bottom_bar_button_min_width">64dp</dimen>
+    <dimen name="bottom_bar_button_padding">8dp</dimen>
+    <dimen name="directional_button_size">48dp</dimen>
+
+</resources>

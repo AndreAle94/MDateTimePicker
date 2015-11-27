@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/sub_header_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/date_picker_month_menu_height"
+        android:padding="2dp" >
+
+        <ImageButton
+            android:id="@+id/arrow_back"
+            android:layout_width="@dimen/directional_button_size"
+            android:layout_height="@dimen/directional_button_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_chevron_left_white_24dp"
+            android:background="@null"
+            android:foreground="?selectableItemBackground" />
+
+        <it.andreale.mdatepicker.date.MonthPageAdapter
+            android:id="@+id/month_page_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/arrow_back"
+            android:layout_toRightOf="@+id/arrow_back"
+            android:layout_toStartOf="@+id/arrow_forward"
+            android:layout_toLeftOf="@+id/arrow_forward" />
+
+        <ImageButton
+            android:id="@+id/arrow_forward"
+            android:layout_width="@dimen/directional_button_size"
+            android:layout_height="@dimen/directional_button_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_chevron_right_white_24dp"
+            android:background="@null"
+            android:foreground="?selectableItemBackground" />
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/month_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</merge>

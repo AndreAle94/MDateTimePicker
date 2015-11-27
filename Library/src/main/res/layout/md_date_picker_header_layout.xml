@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/header_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/date_picker_header_year_text"
+        android:textColor="@android:color/white"
+        android:gravity="start"
+        tool:text="2017" />
+
+    <TextView
+        android:id="@+id/header_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/date_picker_header_day_text"
+        android:textColor="@android:color/white"
+        android:gravity="start"
+        tool:text="Thu, Apr 13" />
+
+</merge>
