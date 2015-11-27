@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 import it.andreale.mdatepicker.date.DatePickerDialog;
 import it.andreale.mdatepicker.date.OnDateSetListener;
 
@@ -25,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnDateSetListener
         // if date picker is null, initialize it
         if (datePickerDialog == null) {
             datePickerDialog = new DatePickerDialog.Builder(this)
-                    .selectedDate(23, 3, 2015)
+                    .selectedDate(23, Calendar.MARCH, 2015)
                     .darkMode(false)
                     .yearRange(1980, 2050)
                     .build();

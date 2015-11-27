@@ -6,6 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!-- Customize date picker here. -->
+        <item name="mdp_darkMode">false</item>
+        <item name="mdp_positiveColor">@color/colorAccent</item>
+        <item name="mdp_negativeColor">@color/colorAccent</item>
+        <item name="mdp_headerBackgroundColor">@color/colorAccent</item>
+        <item name="mdp_todayTextColor">@color/colorAccent</item>
+        <item name="mdp_selectedCircleColor">@color/colorAccent</item>
     </style>
 
 </resources>
