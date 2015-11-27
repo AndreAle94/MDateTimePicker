@@ -2,6 +2,11 @@
 
 This library is a simple implementation of the new DatePicker as shown in [the Material Design spec](http://www.google.com/design/spec/components/pickers.html#pickers-date-pickers).
 
+## Screenshots
+Portrait | Landscape
+---- | ----
+![Portrait](https://github.com/AndreAle94/MDatePicker/blob/master/Images/portrait.png) | ![Landscape](https://github.com/AndreAle94/MDatePicker/blob/master/Images/landscape.png)
+
 ## How it works?
 1. [Simple implementation](#simple-implementation)
 2. [Builder options](#builder-options)
