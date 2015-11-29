@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements OnDateSetListener
         // if time picker is null, initialize it
         if (timePickerDialog == null) {
             timePickerDialog = new TimePickerDialog.Builder(this)
+                    .selectedTime(14, 47)
                     .darkMode(false)
                     .mode24Hour(false)
                     .build();
@@ -123,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         // if time picker is null, initialize it
         if (timePickerDialog == null) {
             timePickerDialog = new TimePickerDialog.Builder(this)
+                    .selectedTime(14, 47)
                     .darkMode(false)
                     .mode24Hour(false)
                     .build();
@@ -197,7 +199,7 @@ new TimePickerDialog.Builder(this)
     .selectedTextColor(Color.MAGENTA)         // DEFAULT: appropriate color for picker theme
     .textColor(Color.MAGENTA)                 // DEFAULT: appropriate color for picker theme
     .selectorColor(Color.MAGENTA)             // DEFAULT: colorAccent of your app theme
-    ..selectedTime(14, 47)                    // DEFAULT: current device time
+    .selectedTime(14, 47)                     // DEFAULT: current device time
     .build();                                 // create dialog instance
     // if you call .show(getSupportFragmentManager(), TIME_PICKER_TAG) it will auto build it.
 ```
