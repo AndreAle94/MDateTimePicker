@@ -25,7 +25,7 @@ import it.andreale.mdatepicker.R;
  */
 public class DatePickerDialog extends DialogFragment implements DatePickerController, View.OnClickListener {
 
-    private final static int DEFAULT_ACCENT_COLOR = Color.MAGENTA;
+    private final static int DEFAULT_ACCENT_COLOR = Color.parseColor("#009688");
     private final static int DEFAULT_START_YEAR = 1900;
     private final static int DEFAULT_END_YEAR = 2100;
     private final static int DEFAULT_PICKER_MODE = DateHeaderView.MODE_DAY_PICKER;

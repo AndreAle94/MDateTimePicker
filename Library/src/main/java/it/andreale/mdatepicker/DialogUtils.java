@@ -31,6 +31,15 @@ public class DialogUtils {
         }
     }
 
+    public static boolean canResolve(Context context, @AttrRes int attr) {
+        TypedArray a = context.getTheme().obtainStyledAttributes(new int[]{attr});
+        try {
+            return a.hasValue(0);
+        } finally {
+            a.recycle();
+        }
+    }
+
     public static void setVisible(View view, boolean visible) {
         if (view != null) {
             view.setVisibility(visible ? View.VISIBLE : View.GONE);

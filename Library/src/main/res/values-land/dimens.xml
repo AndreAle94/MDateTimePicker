@@ -6,4 +6,8 @@
     <dimen name="date_picker_body_height">250dp</dimen>
     <dimen name="date_picker_header_year_text">20sp</dimen>
 
+    <dimen name="time_header_max_width">150dp</dimen>
+    <dimen name="time_picker_body_width">300dp</dimen>
+    <dimen name="time_picker_body_height">250dp</dimen>
+
 </resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+
+        <LinearLayout
+            android:id="@+id/time_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layoutDirection="ltr"
+            tool:ignore="UnusedAttribute" >
+
+            <TextView
+                android:id="@+id/header_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/time_picker_header_text_size"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                tool:text="11" />
+
+            <TextView
+                android:id="@+id/header_divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/time_picker_header_text_size"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                android:text=":"
+                tool:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/header_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/time_picker_header_text_size"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                tool:text="47" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/time_mode_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            tool:ignore="HardcodedText" >
+
+            <TextView
+                android:id="@+id/time_mode_am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/time_picker_header_mode_text_size"
+                android:textColor="@android:color/white"
+                android:text="AM" />
+
+            <TextView
+                android:id="@+id/time_mode_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/time_picker_header_mode_text_size"
+                android:textColor="@android:color/white"
+                android:text="PM" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!--
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/time_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="ltr"
+        tool:ignore="UnusedAttribute" >
+
+        <TextView
+            android:id="@+id/header_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/time_picker_header_text_size"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            tool:text="11" />
+
+        <TextView
+            android:id="@+id/header_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/time_picker_header_text_size"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:text=":"
+            tool:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/header_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/time_picker_header_text_size"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            tool:text="47" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/time_mode_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tool:ignore="HardcodedText" >
+
+        <TextView
+            android:id="@+id/time_mode_am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/time_picker_header_mode_text_size"
+            android:textColor="@android:color/white"
+            android:text="AM" />
+
+        <TextView
+            android:id="@+id/time_mode_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/time_picker_header_mode_text_size"
+            android:textColor="@android:color/white"
+            android:text="PM" />
+
+    </LinearLayout>
+
+</LinearLayout> -->

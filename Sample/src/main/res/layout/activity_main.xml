@@ -16,4 +16,10 @@
         android:layout_height="wrap_content"
         android:text="open date picker" />
 
+    <Button
+        android:id="@+id/time_picker_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open time picker" />
+
 </LinearLayout>

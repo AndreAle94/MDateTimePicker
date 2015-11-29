@@ -8,4 +8,12 @@
     <attr name="mdp_todayTextColor" format="color|reference" />
     <attr name="mdp_selectedCircleColor" format="color|reference" />
 
+    <attr name="mdt_darkMode" format="boolean" />
+    <attr name="mdt_24HourMode" format="boolean" />
+    <attr name="mdt_positiveColor" format="color|reference" />
+    <attr name="mdt_negativeColor" format="color|reference" />
+    <attr name="mdt_headerBackgroundColor" format="color|reference" />
+    <attr name="mdt_circleBackgroundColor" format="color|reference" />
+    <attr name="mdt_selectorColor" format="color|reference" />
+
 </resources>
