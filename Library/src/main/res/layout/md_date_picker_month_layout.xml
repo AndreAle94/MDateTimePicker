@@ -19,7 +19,7 @@
             android:background="@null"
             android:foreground="?selectableItemBackground" />
 
-        <it.andreale.mdatepicker.date.MonthPageAdapter
+        <it.andreale.mdatetimepicker.date.MonthPageAdapter
             android:id="@+id/month_page_adapter"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

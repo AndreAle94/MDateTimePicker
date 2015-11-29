@@ -23,7 +23,7 @@
  * SOFTWARE.
  * *****************************************************************************
  */
-package it.andreale.mdatepicker.time;
+package it.andreale.mdatetimepicker.time;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -36,8 +36,8 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.util.Calendar;
 
-import it.andreale.mdatepicker.DialogUtils;
-import it.andreale.mdatepicker.R;
+import it.andreale.mdatetimepicker.DialogUtils;
+import it.andreale.mdatetimepicker.R;
 
 /**
  * Created by AndreAle94

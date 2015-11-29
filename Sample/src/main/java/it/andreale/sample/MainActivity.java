@@ -7,10 +7,10 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
-import it.andreale.mdatepicker.date.DatePickerDialog;
-import it.andreale.mdatepicker.date.OnDateSetListener;
-import it.andreale.mdatepicker.time.OnTimeSetListener;
-import it.andreale.mdatepicker.time.TimePickerDialog;
+import it.andreale.mdatetimepicker.date.DatePickerDialog;
+import it.andreale.mdatetimepicker.date.OnDateSetListener;
+import it.andreale.mdatetimepicker.time.OnTimeSetListener;
+import it.andreale.mdatetimepicker.time.TimePickerDialog;
 
 public class MainActivity extends AppCompatActivity implements OnDateSetListener, OnTimeSetListener {
 

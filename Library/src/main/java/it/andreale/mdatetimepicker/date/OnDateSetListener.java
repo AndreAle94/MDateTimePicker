@@ -23,12 +23,12 @@
  * SOFTWARE.
  * *****************************************************************************
  */
-package it.andreale.mdatepicker.time;
+package it.andreale.mdatetimepicker.date;
 
 /**
  * Created by AndreAle94
  */
-public interface OnTimeSetListener {
+public interface OnDateSetListener {
 
-    void onTimeSet(TimePickerDialog dialog, int hourOfDay, int minute);
+    void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth);
 }

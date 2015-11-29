@@ -23,7 +23,7 @@
  * SOFTWARE.
  * *****************************************************************************
  */
-package it.andreale.mdatepicker.date;
+package it.andreale.mdatetimepicker.date;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -36,8 +36,8 @@ import android.widget.LinearLayout;
 import java.util.Calendar;
 import java.util.Date;
 
-import it.andreale.mdatepicker.DialogUtils;
-import it.andreale.mdatepicker.R;
+import it.andreale.mdatetimepicker.DialogUtils;
+import it.andreale.mdatetimepicker.R;
 
 /**
  * Created by AndreAle94

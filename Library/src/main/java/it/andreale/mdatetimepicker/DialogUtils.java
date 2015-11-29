@@ -23,7 +23,7 @@
  * SOFTWARE.
  * *****************************************************************************
  */
-package it.andreale.mdatepicker;
+package it.andreale.mdatetimepicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;

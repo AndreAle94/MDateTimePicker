@@ -23,12 +23,30 @@
  * SOFTWARE.
  * *****************************************************************************
  */
-package it.andreale.mdatepicker.date;
+package it.andreale.mdatetimepicker.time;
+
+import java.util.Calendar;
 
 /**
  * Created by AndreAle94
  */
-public interface OnDateSetListener {
+public interface TimePickerController {
 
-    void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth);
+    int getDefaultMode();
+
+    void onPickerModeChange(int pickerMode);
+
+    boolean is24HourMode();
+
+    Calendar getSelectedTime();
+
+    int getCircleBackgroundColor();
+
+    int getDefaultTextColor();
+
+    int getSelectedTextColor();
+
+    int getSelectorColor();
+
+    void onTimeChanged();
 }

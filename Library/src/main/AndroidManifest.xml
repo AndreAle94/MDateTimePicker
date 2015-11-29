@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="it.andreale.mdatepicker">
+    package="it.andreale.mdatetimepicker">
 
     <application
         android:allowBackup="true"

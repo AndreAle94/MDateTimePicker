@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <it.andreale.mdatepicker.time.TimeHeaderView
+    <it.andreale.mdatetimepicker.time.TimeHeaderView
         android:id="@+id/time_header_view"
         android:layout_width="@dimen/time_header_max_width"
         android:layout_height="match_parent" />
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
-        <it.andreale.mdatepicker.time.RadialSelectorView
+        <it.andreale.mdatetimepicker.time.RadialSelectorView
             android:id="@+id/time_selector_view"
             android:layout_width="@dimen/time_picker_body_width"
             android:layout_height="@dimen/time_picker_body_height"
