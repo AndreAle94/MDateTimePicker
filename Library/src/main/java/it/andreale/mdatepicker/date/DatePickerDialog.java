@@ -11,9 +11,8 @@ import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.Button;
-import android.widget.LinearLayout;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -135,6 +134,7 @@ public class DatePickerDialog extends DialogFragment implements DatePickerContro
             mHeaderDateFormat = savedInstanceState.getString(SAVED_HEADER_DATE_FORMAT, DEFAULT_HEADER_DATE_FORMAT);
             mPositiveText = savedInstanceState.getString(SAVED_POSITIVE_TEXT, getString(android.R.string.ok));
             mNegativeText = savedInstanceState.getString(SAVED_NEGATIVE_TEXT, getString(android.R.string.cancel));
+            mBuilderFlag = true;
             if (mCalendar != null) {
                 mFirstDayOfWeek = mCalendar.getFirstDayOfWeek();
             } else {
@@ -155,7 +155,8 @@ public class DatePickerDialog extends DialogFragment implements DatePickerContro
         view.setBackgroundColor(mDarkTheme ? BACKGROUND_DARK : BACKGROUND_LIGHT);
         // create dialog
         Dialog dialog = new Dialog(getActivity());
-        dialog.addContentView(view, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(view);
         return dialog;
     }
 
