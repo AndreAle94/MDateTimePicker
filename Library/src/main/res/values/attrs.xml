@@ -8,12 +8,12 @@
     <attr name="mdp_todayTextColor" format="color|reference" />
     <attr name="mdp_selectedCircleColor" format="color|reference" />
 
-    <attr name="mdt_darkMode" format="boolean" />
-    <attr name="mdt_24HourMode" format="boolean" />
-    <attr name="mdt_positiveColor" format="color|reference" />
-    <attr name="mdt_negativeColor" format="color|reference" />
-    <attr name="mdt_headerBackgroundColor" format="color|reference" />
-    <attr name="mdt_circleBackgroundColor" format="color|reference" />
-    <attr name="mdt_selectorColor" format="color|reference" />
+    <attr name="mtp_darkMode" format="boolean" />
+    <attr name="mtp_24HourMode" format="boolean" />
+    <attr name="mtp_positiveColor" format="color|reference" />
+    <attr name="mtp_negativeColor" format="color|reference" />
+    <attr name="mtp_headerBackgroundColor" format="color|reference" />
+    <attr name="mtp_circleBackgroundColor" format="color|reference" />
+    <attr name="mtp_selectorColor" format="color|reference" />
 
 </resources>

@@ -1,3 +1,28 @@
+/*
+ * ******************************************************************************
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015 AndreAle94
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ * *****************************************************************************
+ */
 package it.andreale.mdatepicker.time;
 
 import android.app.Activity;
@@ -20,7 +45,7 @@ import it.andreale.mdatepicker.DialogUtils;
 import it.andreale.mdatepicker.R;
 
 /**
- * Created by Andrea on 29/11/2015.
+ * Created by AndreAle94
  */
 public class TimePickerDialog extends DialogFragment implements TimePickerController, View.OnClickListener {
 
@@ -260,14 +285,14 @@ public class TimePickerDialog extends DialogFragment implements TimePickerContro
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 mAccentColor = DialogUtils.resolveColor(context, android.R.attr.colorAccent, mAccentColor);
             }
-            mDarkMode = DialogUtils.resolveBoolean(context, R.attr.mdt_darkMode, false);
-            m24HourMode = DialogUtils.resolveBoolean(context, R.attr.mdt_24HourMode, false);
-            mPositiveColor = DialogUtils.resolveColor(context, R.attr.mdt_positiveColor, mAccentColor);
-            mNegativeColor = DialogUtils.resolveColor(context, R.attr.mdt_negativeColor, mAccentColor);
-            mHeaderColor = DialogUtils.resolveColor(context, R.attr.mdt_headerBackgroundColor, mAccentColor);
-            mSelectorColor = DialogUtils.resolveColor(context, R.attr.mdt_selectorColor, mAccentColor);
-            if (DialogUtils.canResolve(context, R.attr.mdt_circleBackgroundColor)) {
-                mCircleColor = DialogUtils.resolveColor(context, R.attr.mdt_circleBackgroundColor, Color.GRAY);
+            mDarkMode = DialogUtils.resolveBoolean(context, R.attr.mtp_darkMode, false);
+            m24HourMode = DialogUtils.resolveBoolean(context, R.attr.mtp_24HourMode, false);
+            mPositiveColor = DialogUtils.resolveColor(context, R.attr.mtp_positiveColor, mAccentColor);
+            mNegativeColor = DialogUtils.resolveColor(context, R.attr.mtp_negativeColor, mAccentColor);
+            mHeaderColor = DialogUtils.resolveColor(context, R.attr.mtp_headerBackgroundColor, mAccentColor);
+            mSelectorColor = DialogUtils.resolveColor(context, R.attr.mtp_selectorColor, mAccentColor);
+            if (DialogUtils.canResolve(context, R.attr.mtp_circleBackgroundColor)) {
+                mCircleColor = DialogUtils.resolveColor(context, R.attr.mtp_circleBackgroundColor, Color.GRAY);
                 mCustomCircleColor = true;
             }
             mCalendar = Calendar.getInstance();
